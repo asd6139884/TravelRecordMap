@@ -1,0 +1,29 @@
+Travelmap/
+│── frontend/              # 前端 React 應用
+│   ├── Dockerfile         # 用於建構 React 環境的 Docker 設定檔
+│   ├── docker-compose.yml # Docker Compose 設定檔（可選）
+│   ├── package.json       # 記錄 React 專案的依賴與設定
+│   ├── src/               # React 源碼
+│   │   ├── index.js       # React 應用的進入點
+│   │   ├── App.js         # 主要的 React 元件
+│   │   ├── components/    # 存放各種 UI 元件
+│   │   ├── pages/         # 各個頁面組件
+│   │   ├── styles/        # 樣式檔案
+│   │   ├── assets/        # 圖片等資源
+│   ├── public/            # 靜態資源
+│   │   ├── index.html     # React 應用的 HTML 入口
+│   ├── .dockerignore      # 忽略不需要加入 Docker 的文件
+│   ├── .gitignore         # 忽略 Git 版本控制的文件
+│── backend/               # 後端應用（技術不限）
+│   ├── server.js          # 主要後端程式（假設是 Node.js）
+│   ├── package.json       # 記錄後端依賴
+│   ├── routes/            # API 路由
+│   ├── models/            # 資料庫模型
+│   ├── controllers/       # 控制器邏輯
+│   ├── config/            # 設定檔案
+│   ├── .env               # 環境變數設定
+│   ├── Dockerfile         # 後端 Docker 設定檔
+│   ├── docker-compose.yml # 可選的 Docker Compose 設定
+│── .gitignore             # 忽略整個專案中不需要追蹤的文件
+│── README.md              # 專案說明文件
+│── docker-compose.yml      #（可選）統一管理前後端的 Docker 配置
